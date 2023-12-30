@@ -1,4 +1,4 @@
 # Palindrome checker
 
   A palindrome is a word or phrase that can be read the same way forwards and backwards, ignoring punctuation, case, and spacing.
-I did this for the freecodecamp challenge
+       I did this for the freecodecamp challenge
