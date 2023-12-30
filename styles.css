@@ -14,7 +14,7 @@
     width: 80%; /* Larger input field */
     padding: 10px; /* More padding for better readability */
     margin-bottom: 20px; /* Space below the input field */
-    font-size: 1.5em; /* Bigger text */
+    font-size: 1.7em; /* Bigger text */
     border: 2px solid #a0a0a0; /* Border for the input */
     border-radius: 5px; /* Rounded corners for the input */
     box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
@@ -23,8 +23,8 @@
 /* Button styling */
 #check-btn {
     padding: 10px 20px; /* Padding for a larger button */
-    font-size: 1em; /* Font size for the button */
-    border: none; /* No border for the button */
+    font-size: 1.7em; /* Font size for the button */
+    border: 2px solid #a0a0a0; /* solid border for the button */
     border-radius: 5px; /* Rounded corners for the button */
     cursor: pointer; /* Pointer cursor on hover */
     background-color: #a0d8ef; /* Pastel blue background */
