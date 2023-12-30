@@ -1,13 +1,55 @@
+/* Main container styling */
 #main-container {
     text-align: center;
     padding: 20px;
+    max-width: 500px; /* Limiting the width for better appearance */
+    margin: 250px auto; /* Centering the container */
+    background-color: #f3f3f3; /* Light background color */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2); /* Box shadow for a subtle effect */
 }
 
+/* Input field styling */
 #text-input {
-    margin-bottom: 10px;
+    width: 80%; /* Larger input field */
+    padding: 10px; /* More padding for better readability */
+    margin-bottom: 20px; /* Space below the input field */
+    font-size: 1.5em; /* Bigger text */
+    border: 2px solid #a0a0a0; /* Border for the input */
+    border-radius: 5px; /* Rounded corners for the input */
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1); /* Inner shadow for depth */
 }
 
-#result {
-    margin-top: 10px;
-    font-weight: bold;
+/* Button styling */
+#check-btn {
+    padding: 10px 20px; /* Padding for a larger button */
+    font-size: 1em; /* Font size for the button */
+    border: none; /* No border for the button */
+    border-radius: 5px; /* Rounded corners for the button */
+    cursor: pointer; /* Pointer cursor on hover */
+    background-color: #a0d8ef; /* Pastel blue background */
+    color: white; /* White text */
 }
+
+#check-btn:hover {
+    background-color: #92cddc; /* Slightly darker on hover for feedback */
+}
+
+/* Result display styling */
+#result {
+    margin-top: 50px; /* Space above the result */
+    font-size: 2.0em; /* Larger and bolder text for the result */
+    font-weight: bold; /* Bold text */
+    color: #505050; /* Darker text color for contrast */
+}
+
+/* Adding responsiveness */
+@media (max-width: 600px) {
+    #main-container {
+        width: 90%; /* Full width on smaller screens */
+    }
+    #text-input, #check-btn {
+        width: 100%; /* Full width input and button on smaller screens */
+    }
+}
+
