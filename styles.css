@@ -1,0 +1,13 @@
+#main-container {
+    text-align: center;
+    padding: 20px;
+}
+
+#text-input {
+    margin-bottom: 10px;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+}
